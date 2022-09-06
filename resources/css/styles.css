@@ -46,7 +46,7 @@ figcaption {
     text-align: right;
     font-style: italic;
     text-shadow: 1px 1px #F2F2F2;
-    padding-right: 1px;
+    margin-right: 5px;
 }
 
 figcaption a {
