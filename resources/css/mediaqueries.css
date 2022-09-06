@@ -1,0 +1,122 @@
+@media only screen and (min-width: 1840px) and (max-width: 2560px) {
+    /* Universal Styles */
+
+    html {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 1230px) and (max-width:1840px) {
+    /* Universal Styles */
+
+    html {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 927px) and (max-width: 1230px) {
+    /* Universal Styles */
+
+    html {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 927px){
+    /* Universal Styles */
+
+    html {
+        font-size: 8px;
+    }
+
+    /* About Section */
+    .activities {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: space-evenly;
+    }
+    
+    .about .image-container {
+        width: 35%;
+        height: 450px;
+        overflow: hidden;
+    }
+
+    .about img {
+        max-height: 80%;
+        width: auto;
+    }
+
+}
+
+@media only screen and (max-width: 680px) {
+    /* Universal Styles */
+
+    html {
+        font-size: 6px;
+    }
+
+    /* About Section */
+
+    .activities {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: space-evenly;
+    }
+    
+    .about .image-container {
+        width: 90%;
+        overflow: hidden;
+    }
+
+    .about img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Month Section */
+
+    #month-section {
+        width: 100%;
+        display: flex;
+        background-color: #F2F2F2;
+        padding: 2rem 0;
+    }
+    
+    .month {
+        width: 100%;
+        color: #510300;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .month .text-container {
+        width: 90%;
+        text-align: center;
+    }
+    
+    .month .image-container {
+        width: 90%;
+    }
+
+    /* Quotes Section */
+
+    .quotes {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .quote-container {
+        width: 70%;
+        display: flex;
+    }
+}
